@@ -3,7 +3,6 @@ makeCacheMatrix <- function(x = matrix()) {
 		#initializes the data
         m <- NULL
         set <- function(y) {
-				#it'll be global data
                 x <<- y
                 m <<- NULL
         }
